@@ -10,6 +10,10 @@
 #include <wpe/wpe-platform.h>
 #endif
 
+#if defined(HAVE_WPE_PLATFORM) && !defined(WPE_SETTING_DISABLE_ANIMATIONS)
+#define WPE_SETTING_DISABLE_ANIMATIONS WPE_SETTING_REDUCED_MOTION
+#endif
+
 namespace flutter_inappwebview_plugin {
 
 InAppWebViewSettings::InAppWebViewSettings() {
