@@ -1,6 +1,7 @@
 name: flutter_inappwebview_macos
 description: macOS implementation of the flutter_inappwebview plugin.
-version: 1.2.0-beta.3
+version: 1.2.0-ferrari
+publish_to: none
 homepage: https://inappwebview.dev/
 repository: https://github.com/pichillilorenzo/flutter_inappwebview/tree/master/flutter_inappwebview_macos
 issue_tracker: https://github.com/pichillilorenzo/flutter_inappwebview/issues
@@ -24,7 +25,7 @@ dependencies:
     # path: ../flutter_inappwebview_platform_interface
     git:
       url: https://github.com/ferrarielectronic/flutter_inappwebview.git
-      ref: master
+      ref: ferrari
       path: flutter_inappwebview_platform_interface
 
 dev_dependencies:
